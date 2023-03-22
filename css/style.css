@@ -1,0 +1,37 @@
+/* header */
+.conteiner{
+    max-width: 1440px;
+    width: 100%;
+    background-color:#F4EEEE;
+    margin: 0 auto;
+    /* border: 10px solid red; */
+}
+header{
+   max-width: inherit;
+   width: inherit;
+    height: 160px;
+    padding-left: 80px;
+    padding-right: 67.37px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 50px 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: 3;
+    
+
+}
+.logo{
+width: 205.25px;
+height: 43px;
+
+}
+.fa-bars{
+    font-size: 42px;
+    width: 60px;
+    height: 46.75px;
+    color: #125806;
+}
